@@ -42,14 +42,6 @@ betakit-dashboard/
 └─ next.config.js          # Next.js configuration
 ```
 
-## Performance
-
-- Server Components by default; `"use client"` only where needed
-- Dynamic imports with `{ ssr: false }` for charts and tables
-- `React.memo` on all presentational components
-- `useMemo` / `useCallback` for data and event handlers
-- Tree-shaken MUI imports via `modularizeImports`
-
 ## Responsive
 
 Fully responsive from mobile (320px) to desktop. Sidebar collapses to hamburger menu on smaller screens.
