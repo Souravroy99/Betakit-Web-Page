@@ -1,15 +1,14 @@
 # Betakit Dashboard
 
-A production-ready financial dashboard built with Next.js 14+ (App Router), TypeScript, Tailwind CSS, Material UI v5, and Recharts.
+A production-ready financial dashboard built with Next.js 14+ (App Router), JavaScript, Tailwind CSS, Material UI v5, and Recharts.
 
 ## Tech Stack
 
 - **Framework:** Next.js 14+ (App Router)
-- **Language:** TypeScript
+- **Language:** JavaScript
 - **Styling:** Tailwind CSS + Material UI v5
 - **Charts:** Recharts
 - **Icons:** lucide-react
-- **Font:** Inter (via next/font/google)
 
 ## Getting Started
 
@@ -25,21 +24,21 @@ Open [http://localhost:3000](http://localhost:3000) — you'll be redirected to 
 ```
 betakit-dashboard/
 ├─ app/                    # Next.js App Router pages
-│  ├─ layout.tsx           # Root layout with MUI theme + font
+│  ├─ layout.jsx           # Root layout with MUI theme + font
 │  ├─ globals.css          # Tailwind directives + custom scrollbar
-│  ├─ page.tsx             # Redirects to /dashboard
-│  └─ dashboard/page.tsx   # Main dashboard page
+│  ├─ page.jsx             # Redirects to /dashboard
+│  └─ dashboard/page.jsx   # Main dashboard page
 ├─ components/
 │  ├─ layout/              # Sidebar, Topbar, DashboardLayout
 │  ├─ cards/               # Balance, Spending, Card Preview, Budget
 │  ├─ charts/              # Cash Breakdown bar chart
 │  └─ tables/              # Transactions history table
 ├─ lib/
-│  ├─ theme.ts             # Centralized MUI theme
-│  ├─ chartData.ts         # Mock data for charts & tables
-│  └─ utils.ts             # cn() utility + formatCurrency
+│  ├─ theme.js             # Centralized MUI theme
+│  ├─ chartData.js         # Mock data for charts & tables
+│  └─ utils.js             # cn() utility + formatCurrency
 ├─ public/                 # Static assets
-├─ tailwind.config.ts      # Tailwind configuration
+├─ tailwind.config.js      # Tailwind configuration
 └─ next.config.js          # Next.js configuration
 ```
 
