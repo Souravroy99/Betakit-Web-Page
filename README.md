@@ -2,6 +2,8 @@
 
 A production-ready financial dashboard built with Next.js 14+ (App Router), JavaScript, Tailwind CSS, Material UI v5, and Recharts.
 
+Live Link: betakit-web-page-goj8wqh4k-souravroy99s-projects.vercel.app
+
 ## Tech Stack
 
 - **Framework:** Next.js 14+ (App Router)
